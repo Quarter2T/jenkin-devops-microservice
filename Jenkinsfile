@@ -1,6 +1,7 @@
 pipeline {
 		agent {
 			docker {
+				alwaysPull true
 				image 'maven:3.9.6'
 			}
 		}
