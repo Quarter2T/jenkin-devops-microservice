@@ -1,7 +1,6 @@
 pipeline {
 		agent {
 			docker {
-				alwaysPull true
 				image 'node:13.8'
 			}
 		}
